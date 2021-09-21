@@ -1,12 +1,23 @@
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import React from 'react'
+// Pages
+import Projects from './pages/Projects'
+// components
+import Homepage from './components/Homepage'
 
-import './index.css';
-
-function App() {
+const App = () => {
   return (
-    <div>
-      hi
-    </div>
-  );
+   <BrowserRouter> 
+   <Route path="/">
+   <Homepage />
+   </Route>
+   <Route path="/projects">
+   <Projects />
+   </Route>
+ 
+   </BrowserRouter>
+  )
 }
 
-export default App;
+export default App
+
