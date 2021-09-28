@@ -1,11 +1,30 @@
-import React from 'react'
+import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Homepage = () => {
-    return (
-        <>
-        <h1>This will be the homepage</h1> 
-        </>
-    )
-}
+  return (
+    <>
+      <section className="homepage">
+        <div className="overlay">
+          <h1>Stephen Flores</h1>
+          <p>Front End Web Developer</p>
 
-export default Homepage
+          <ul>
+            <li>
+              <a href="https://github.com/sflores813" target="_blank" rel="noopenner noreferrer">
+                <FaGithub />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopenner noreferrer">
+                <FaLinkedin />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default Homepage;
