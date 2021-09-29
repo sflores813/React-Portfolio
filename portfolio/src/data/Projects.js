@@ -6,7 +6,7 @@ export const projects = [
         id:uuidv4(),
         title: "Project One",
         desc:"this should edit project one",
-        github:"https//github.com/sflores813",
+        github:"https://github.com/sflores813/GDriveClone",
         demo: "link to the demo of site",
         image: "./images/project-1.jpeg"
     },
