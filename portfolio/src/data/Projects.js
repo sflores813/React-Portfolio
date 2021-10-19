@@ -4,10 +4,10 @@ export const projects = [
     // project one
     {
         id:uuidv4(),
-        title: "Project One",
-        desc:"this should edit project one",
+        title: "Google Drive Clone",
+        desc:"A google drive clone using firebase as backend",
         github:"https://github.com/sflores813/GDriveClone",
-        demo: "link to the demo of site",
+        demo: "https://auth-development-fca81.web.app/",
         image: "./images/project-1.jpeg"
     },
     // project two

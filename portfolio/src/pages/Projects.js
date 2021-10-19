@@ -20,7 +20,7 @@ const Projects = () => {
                   <p>{desc}</p>
                   <ul>
                       <li><a href={github} target="=blank" rel="noopener noreferrer" className="github"><FaGithub style={{marginRight: 5}} />GitHub</a></li>
-                      <li><a href={demo} target="=blank" rel="noopener noreferrer" className="demo"><FaVideo style={{marginRight: 5}}/>demo</a></li>
+                      <li><a href={demo} target="=blank" rel="noopener noreferrer" className="demo"><FaVideo style={{marginRight: 5}}/>Demo</a></li>
                   </ul>
 
                 </article>
